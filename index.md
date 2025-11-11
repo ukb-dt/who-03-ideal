@@ -1,3 +1,23 @@
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
+
+
 > *Ideal AI = Ideal Engineering = dE/dt = 0 (min/max) = Signal Rate/Delay*          
 > -- Pyromancer
 
@@ -19,12 +39,6 @@
    - Planes, Air-Traffic Control, Taxi/Runways
 
 Variants:
-- Smoking THC:
-   - Oral
-   - Pharynx (Minimize Flow Rate)
-   - Mucosa (Upper vs Lower Airways) => $dE_x/dt = 0 (min)$
-   - Breath (Flow) vs Cough (Turbulence)
-   - Ciculation -> Brain (CB1 Receptors)
 - Decision Support => KPIs (Bidrectional, Supply-Demand):
    - Data/Oracle $(E, x)$
    - Analysis/Microsoft $(E(t \mid x + \epsilon)$
@@ -37,3 +51,9 @@ Variants:
    - Rate
    - Exploration/Boundaries
    - Tailored  
+- Smoking THC:
+   - Oral
+   - Pharynx (Minimize Flow Rate)
+   - Mucosa (Upper vs Lower Airways) => $dE_x/dt = 0 (min)$
+   - Breath (Flow) vs Cough (Turbulence)
+   - Ciculation -> Brain (CB1 Receptors)
