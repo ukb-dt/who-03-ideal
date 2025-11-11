@@ -53,7 +53,7 @@ Variants:
    - Tailored  
 - Having [THC](https://ukb-dt.github.io/who-03-ideal-strange/):
    - Oral
-   - Pharynx (Minimize Flow Rate)
+   - Breath (Inhale/Exhale=Flow)  
    - Mucosa (Upper vs Lower Airways) => $dE_x/dt = 0 (min)$
-   - Breath (Flow) vs Cough (Turbulence)
+   - Cough (Lung Capacity=Turbulence)
    - Ciculation -> Brain (CB1 Receptors)
